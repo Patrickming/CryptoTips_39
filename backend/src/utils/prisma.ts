@@ -1,5 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 
+// 创建 Prisma 客户端实例
 export const prisma = new PrismaClient();
 
 export async function connectDatabase() {
